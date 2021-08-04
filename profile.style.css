@@ -1,0 +1,44 @@
+body{
+  width: 80px;
+}
+
+
+header{
+  height: 60px;
+  width:100%;
+  background-color: teal;
+}
+
+.header-manu{
+ display:flex;
+ justify-content: space-between;
+ padding: 0 10%;
+}
+
+.header-log{
+  width: 115px;
+  height: 35px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 5px;
+  margin: 5px;
+}
+
+.header-list{
+  
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li{
+  padding-left: 60px;
+}
+
+.header-imag{
+  height: 50px;
+  width: 100px;
+  object-fit: cover;
+}
