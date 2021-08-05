@@ -1,7 +1,6 @@
-body{
-  width: 80px;
+*{
+ background-repeat: no-repeat;
 }
-
 
 header{
   height: 60px;
@@ -27,7 +26,6 @@ header{
 }
 
 .header-list{
-  
   list-style: none;
   display: flex;
   align-items: center;
@@ -37,8 +35,24 @@ li{
   padding-left: 60px;
 }
 
-.header-imag{
-  height: 50px;
-  width: 100px;
+.header-image{
+  height: 650px;
+  width: 100%;
   object-fit: cover;
+  margin: 8px 0;
+}
+
+.main-log{
+  font-size: 30px;
+  text-align: center;
+  border-bottom:1px solid  black;
+  margin: 10px
+  ;
+}
+
+.main-image{
+  padding: 20px;
+  height: 120px;
+  width: 120px;
+  
 }
